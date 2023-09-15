@@ -39,6 +39,7 @@ const ProductUpdate = () => {
   return (
     <div>
       <Grid constainer={true} item xs={12}>
+
         <form onSubmit={updateProduct}>
           <TextField
             fullWidth
@@ -71,6 +72,7 @@ const ProductUpdate = () => {
             Update
           </Button>
         </form>
+        
       </Grid>
     </div>
   );
